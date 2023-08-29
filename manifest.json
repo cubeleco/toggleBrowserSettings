@@ -1,0 +1,35 @@
+{
+"manifest_version": 3,
+"version": "1.0",
+"name": "Toggle Browser Settings",
+"description": "Toggle global settings from the tools menu, such as Document colors and Image animations.",
+
+"browser_specific_settings": {
+	"gecko": {
+		"id": "ToggleBrowserSettings@cubeleco"
+	}
+},
+"background": {
+	"scripts": ["background.js"]
+},
+
+"icons": {
+	"64": "icon.png"
+},
+"commands": {
+	"docColors": {
+		"description": "Toggle document colors"
+	},
+	"docFonts": {
+		"description": "Toggle document fonts"
+	},
+	"siteZoom": {
+		"description": "Toggle site specific zoom"
+	},
+	"animImg": {
+		"description": "Toggle image animations"
+	}
+},
+
+"permissions": ["browserSettings", "menus"]
+}
