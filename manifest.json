@@ -1,8 +1,8 @@
 {
 "manifest_version": 3,
-"version": "1.0",
+"version": "1.1.0",
 "name": "Toggle Browser Settings",
-"description": "Toggle global settings from the tools menu, such as Document colors and Image animations.",
+"description": "Toggle global settings such as Document colors (global light/dark mode) and Image animations.",
 
 "browser_specific_settings": {
 	"gecko": {
@@ -13,6 +13,8 @@
 	"scripts": ["background.js"]
 },
 
+"action": {
+},
 "icons": {
 	"64": "icon.png"
 },
@@ -31,5 +33,5 @@
 	}
 },
 
-"permissions": ["browserSettings", "menus"]
+"permissions": ["browserSettings", "menus", "storage"]
 }

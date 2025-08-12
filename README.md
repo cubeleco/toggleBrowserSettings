@@ -6,4 +6,4 @@ The settings toggles are placed in the Tools menu. (Alt-t) Keyboard command shor
 
 # Links
 
-* [Firefox add-on](https://addons.mozilla.org/en-US/firefox/addon/toggle-browser-settings/)
+* [Firefox add-on site](https://addons.mozilla.org/en-US/firefox/addon/toggle-browser-settings/)
